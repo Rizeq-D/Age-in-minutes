@@ -1,24 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical"
-    android:background="@color/yellow"
-    android:gravity="center_horizontal">
+    android:fitsSystemWindows="true">
 
-    <TextView
+    <!--the Background-->
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="16dp"
-        android:text="@string/calculate_your"
-        android:textColor="#E94539"
-        android:textColorHighlight="@color/light_blue"
-        android:textColorHint="#030303"
-        android:textColorLink="#2196F3"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+        android:background="#FF000000"
+        android:padding="16dp">
 
-</LinearLayout>
+    <!--and here designing the name of the App on top in  the background-->
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age_to_minutes"
+        android:textColor="#E94539"
+        android:textSize="35sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:paddingTop="5dp"/>
+    </RelativeLayout>
+
+    <!--the foreground-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="@color/yellow"
+        android:padding="16dp">
+
+    <!--the app functions-->
+        <TextView
+            android:id="@+id/calculateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate_your"
+            android:textColor="#FFD5190B"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="16dp"/>
+
+    </RelativeLayout>
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
