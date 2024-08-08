@@ -52,7 +52,7 @@
             android:padding="16dp"/>
 
         <Button
-            android:id="@+id/click_to_calculate"
+            android:id="@+id/btn_click_to_select"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/click_to_calculate"
@@ -74,7 +74,7 @@
             android:background="#FFFFFFFF"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:layout_below="@id/click_to_calculate"
+            android:layout_below="@id/btn_click_to_select"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:padding="10dp"/>
