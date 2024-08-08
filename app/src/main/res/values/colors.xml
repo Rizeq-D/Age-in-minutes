@@ -10,6 +10,8 @@
     <color name="orange">#FFD5190B</color>
     <color name="yellow">#E0CA08</color>
     <color name="light_blue">#FF2196F3</color>
+    <color name="darkRed">#360603</color>
+    <color name="lightPink">#CFB3B3</color>
 
     <color name="backgroundColor">#FF000000</color>
     <color name="foregroundColor">#E0CA08</color>

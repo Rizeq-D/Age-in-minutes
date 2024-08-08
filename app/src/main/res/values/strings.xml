@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">AgeMinutesCalc</string>
     <string name="age_to_minutes">Age to Minutes</string>
-    <string name="calculate_your">CALCULATE YOUR</string>
+    <string name="calculate_your">Calculate your age \n in MINUTES!!!</string>
+    <string name="click_to_calculate">Select a Date</string>
+    <string name="selected_date">Selected date</string>
+    <string name="in_minutes_till_today">In minutes till today</string>
+
+
 </resources>
